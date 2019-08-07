@@ -1,0 +1,3 @@
+INDEX VERSION 1.127
+C:\Windows\SystemD\WorkSpaces\workspace\WebServices\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2116060641.index
+\WebService-Security-WAS-Client\src\main\java

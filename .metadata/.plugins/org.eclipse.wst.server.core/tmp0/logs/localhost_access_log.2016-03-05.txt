@@ -1,0 +1,13 @@
+127.0.0.1 - - [05/Mar/2016:14:56:21 +0530] "GET / HTTP/1.1" 404 951
+127.0.0.1 - - [05/Mar/2016:14:57:08 +0530] "GET / HTTP/1.1" 404 951
+127.0.0.1 - - [05/Mar/2016:14:57:09 +0530] "POST /301-web-service-simulator/services/AdminService HTTP/1.0" 200 291
+127.0.0.1 - - [05/Mar/2016:14:57:09 +0530] "POST /301-web-service-simulator/services/AdminService HTTP/1.0" 200 4904
+127.0.0.1 - - [05/Mar/2016:15:00:50 +0530] "GET / HTTP/1.1" 404 951
+127.0.0.1 - - [05/Mar/2016:15:00:51 +0530] "POST /301-web-service-simulator/services/AdminService HTTP/1.0" 200 291
+127.0.0.1 - - [05/Mar/2016:15:00:51 +0530] "POST /301-web-service-simulator/services/AdminService HTTP/1.0" 200 3245
+127.0.0.1 - - [05/Mar/2016:15:03:03 +0530] "GET / HTTP/1.1" 404 951
+127.0.0.1 - - [05/Mar/2016:15:03:04 +0530] "POST /301-web-service-simulator/services/AdminService HTTP/1.0" 200 291
+127.0.0.1 - - [05/Mar/2016:15:03:04 +0530] "POST /301-web-service-simulator/services/AdminService HTTP/1.0" 200 3245
+127.0.0.1 - - [05/Mar/2016:15:06:12 +0530] "GET / HTTP/1.1" 404 951
+127.0.0.1 - - [05/Mar/2016:15:06:12 +0530] "POST /301-web-service-simulator/services/AdminService HTTP/1.0" 200 291
+127.0.0.1 - - [05/Mar/2016:15:06:12 +0530] "POST /301-web-service-simulator/services/AdminService HTTP/1.0" 200 4895

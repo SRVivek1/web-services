@@ -1,0 +1,7 @@
+eclipse.preferences.version=1
+encoding//src/main/java/com/helloworld/HelloWorldService/HelloWorldServiceBindingStub.java=UTF-8
+encoding//src/main/java/com/helloworld/HelloWorldService/HelloWorldService_PortType.java=UTF-8
+encoding//src/main/java/com/helloworld/HelloWorldService/HelloWorldService_Service.java=UTF-8
+encoding//src/main/java/com/helloworld/HelloWorldService/HelloWorldService_ServiceLocator.java=UTF-8
+encoding//src/main/java/com/helloworld/HelloWorldService/SayHelloRequest.java=UTF-8
+encoding//src/main/java/com/helloworld/HelloWorldService/SayHelloResponse.java=UTF-8

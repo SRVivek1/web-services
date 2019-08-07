@@ -1,0 +1,8 @@
+eclipse.preferences.version=1
+encoding//src/main/java/NET/webserviceX/www/SMSResult.java=UTF-8
+encoding//src/main/java/NET/webserviceX/www/SendSMS.java=UTF-8
+encoding//src/main/java/NET/webserviceX/www/SendSMSLocator.java=UTF-8
+encoding//src/main/java/NET/webserviceX/www/SendSMSSoap.java=UTF-8
+encoding//src/main/java/NET/webserviceX/www/SendSMSSoapImpl.java=UTF-8
+encoding//src/main/java/NET/webserviceX/www/SendSMSSoapSkeleton.java=UTF-8
+encoding//src/main/java/NET/webserviceX/www/SendSMSSoapStub.java=UTF-8

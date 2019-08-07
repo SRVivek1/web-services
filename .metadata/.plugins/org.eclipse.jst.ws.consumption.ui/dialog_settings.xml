@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="org.eclipse.jst.ws.client.type.java">
+		<item value="/201-java-webservice-simulator-client/src/main/resource/wsdl/SendSMS.asmx.wsdl"/>
+		<item value="/10-contract-changed-service-client/src/main/resources/com/helloworldService/wsdl/HelloWorldService.wsdl"/>
+	</list>
+</section>

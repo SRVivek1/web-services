@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<xs:schema xmlns:tns="http://packages.catalog.testmart.com/"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema" version="1.0"
+	targetNamespace="http://packages.catalog.testmart.com/">
+
+	<xs:element name="getProductCatogeriesMethod" type="tns:getProductCatogeriesMethod" />
+
+	<xs:element name="getProductCatogeriesMethodResponse" type="tns:getProductCatogeriesMethodResponse" />
+
+	<xs:complexType name="getProductCatogeriesMethod">
+		<xs:sequence />
+	</xs:complexType>
+
+	<xs:complexType name="getProductCatogeriesMethodResponse">
+		<xs:sequence>
+			<xs:element name="return" type="xs:string" minOccurs="0"
+				maxOccurs="unbounded" />
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>

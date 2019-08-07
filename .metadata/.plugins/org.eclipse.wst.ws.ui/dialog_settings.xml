@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="1/org.eclipse.jst.ws.wsImpl.java">
+		<item value="/201-java-webservice-simulator/src/main/resources/wsdl/SendSMS.asmx.wsdl"/>
+		<item value="/10-what-if-contract-changes-after-client-is-generated/WebContent/wsdl/HelloWorldService.wsdl"/>
+		<item value="/09-webservice-using-wsdl-first-approach/WebContent/wsdl/HelloWorldService.wsdl"/>
+		<item value="/08-ws-using-contract-first-approach/WebContent/wsdl/helloWsdl.wsdl"/>
+	</list>
+</section>

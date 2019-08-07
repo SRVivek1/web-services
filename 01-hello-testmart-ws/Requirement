@@ -1,0 +1,14 @@
+
+:: Requirement ::
+==========================
+	>> This application is based on "Soap Web Service 09 - Tutorail".
+	
+	>> In this application we have developed a simple web service using least number of annotations.
+	>> This is the simplest web service and is just like hello world understanding purpose.
+	
+	
+	
+	Issue ::
+	==============
+		>> When client invokes addProduct method then that product should be displayed in getProduct call but 
+		   currently this is not the behavior and is still showing the previous list of products.

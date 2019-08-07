@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<wsdl:definitions name="HelloWorldService" targetNamespace="http://www.rpsoft.com/helloworld/greeting/"
+		xmlns:hws="http://www.rpsoft.com/helloworld/greeting/"
+		xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"
+		xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/"
+		xmlns:xsd="http://www.w3.org/2001/XMLSchema" >
+		
+		<wsdl:types>
+			<xsd:schema targetNamespace="http://www.rpsoft.com/helloworld/greeting/">
+				<xsd:element name="SayHelloRequest" type="xsd:string" />
+				<xsd:element name="SayHelloResponse" type="xsd:string" />
+			</xsd:schema>
+		</wsdl:types>
+		
+		<wsdl:message name="SayHelloRequestMessage">
+			<wsdl:part name="userName" element="hws:SayHelloRequest" />
+		</wsdl:message>
+		<wsdl:message name="SayHelloResponseMessage">
+			<wsdl:part name="greetingMessage" element="hws:SayHelloResponse" />
+		</wsdl:message>
+				
+		<wsdl:portType name="HelloWorld">
+			<wsdl:operation name="sayHello">
+				<wsdl:input message="hws:SayHelloRequestMessage" />
+				<wsdl:output message="hws:SayHelloResponseMessage" />
+			</wsdl:operation>
+		</wsdl:portType>
+		
+		<wsdl:binding name="HelloWorldBinding" type="hws:HelloWorld">
+			<soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http" />
+			<wsdl:operation name="sayHello">
+				<wsdl:input>
+					<soap:body use="literal" />
+				</wsdl:input>
+				<wsdl:output>
+					<soap:body use="literal" />
+				</wsdl:output>
+			</wsdl:operation>
+		</wsdl:binding>
+		
+		<wsdl:service name="HelloWorldService">
+			<wsdl:port binding="hws:HelloWorldBinding" name="HelloWorldPort"> 
+				<soap:address location="http://localhost:8000/helloworld/greeting/" />
+			</wsdl:port>
+		</wsdl:service>
+		
+</wsdl:definitions>

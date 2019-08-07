@@ -1,0 +1,7 @@
+eclipse.preferences.version=1
+encoding//src/main/java/com/rpsoft/www/helloworld/greeting/HelloWorld.java=UTF-8
+encoding//src/main/java/com/rpsoft/www/helloworld/greeting/HelloWorldBindingImpl.java=UTF-8
+encoding//src/main/java/com/rpsoft/www/helloworld/greeting/HelloWorldBindingSkeleton.java=UTF-8
+encoding//src/main/java/com/rpsoft/www/helloworld/greeting/HelloWorldBindingStub.java=UTF-8
+encoding//src/main/java/com/rpsoft/www/helloworld/greeting/HelloWorldService.java=UTF-8
+encoding//src/main/java/com/rpsoft/www/helloworld/greeting/HelloWorldServiceLocator.java=UTF-8

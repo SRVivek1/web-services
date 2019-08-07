@@ -1,0 +1,13 @@
+
+:: Requirement ::
+=======================
+	>> This web service project is developed to understand the WSDL components.
+	>> In this web service will have only one method and will try to map which web service component is 
+	   getting mapped with which component in WSDL.
+	>> Naming convention in the class is used to make it more specific with the component name.
+	
+	
+:: Reference ::
+=======================
+	>> Java brains soap webservice tutorial.
+	>> Tutorial : SOAP Web Services 10 - Understanding the WSDL

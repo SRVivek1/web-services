@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Delete 2 resources" deleteContents="true" description="Delete 2 resources" element1="/201-java-webservice-simulator-client" element2="/201-java-webservice-simulator-service" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="2" stamp="1457160810552"/>&#x0A;<refactoring comment="Rename resource &apos;302-web-service-simulator&apos; to &apos;302-web-service-simulator-single-handler&apos;" description="Rename resource &apos;302-web-service-simulator&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/302-web-service-simulator" name="302-web-service-simulator-single-handler" stamp="1457197037652" updateReferences="true"/>
+</session>
